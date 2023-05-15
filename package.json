@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "postinstall": "nuxi prepare",
+    "predeploy": "npm run generate",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "nuxt": "^3.4.3"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.2.96",
+    "gh-pages": "^5.0.0",
+    "sass": "^1.62.1",
+    "vite-plugin-vuetify": "^1.0.2",
+    "vuetify": "^3.2.4"
+  }
+}
